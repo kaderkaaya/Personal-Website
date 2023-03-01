@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kader Kaya</title>
+     <!--fontawesome ikonları-->
+     <script src="https://kit.fontawesome.com/ffb7a7748b.js" crossorigin="anonymous"></script>
+     <!--font family-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+     <!--AOS Kütüphanesi-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!--My CSS-->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-div">
+      <div class="column-25">
+       <h2 class="gradient">KADER KAYA</h2>
+       <p>Web designer</p>
+
+    </div> 
+    <div class="column-75">
+        <a href="#hakkimda-text">Ben Kimim ?</a>
+        <a href="#sertifika">Sertifikalarım</a>
+        <a href="#yetenek">Yetenekler</a> 
+        <a href="#dil">Diller</a> 
+        <a href="#sosyal">Sosyal Medya</a>
+        <a href="#proje">Projeler</a> 
+        <i class="fas fa-search fa 1x"></i>
+    </div>
+    </div>
+    <div class="mycontainer">
+        <!--Hakkımda-->
+        <div class="content">
+            <div class="column-25">
+                <h2>Ben kimim ?</h2> <br><br>
+                <img src="kader2.jpg" alt="resim1"  style="width:200px; height: 200px;"
+                >
+            </div>
+            <div class="column-75">
+                <p class="hakkımda-text" id="hakkimda-text">Merhaba ben Kader Antalya'da yaşıyorum.
+                     Antalya Bilim Üniversitesi 3. sınıf Bilgisayar Mühendisliği öğrencisiyim.
+                     Web geliştirme alanı ile ilgileniyorum.Java dilini daha önce öğrendim ve farklı projeler yaparak 
+                     kendimi daha çok geliştirmeye çalışıyorum.
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <!--diller-->
+            <div class="column-50">
+                <h2 id="dil">Diller</h2>
+                <i>İngilizce</i> 
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 70%" aria-valuenow="10" data-aos-duration="500"
+                    aria-valuemin="0" aria-valuemax="100" ></div>
+                </div> <br>
+                  <i>Almanca</i>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped  bg-warning" role="progressbar" style="width: 55%" aria-valuenow="25"data-aos-duration="800"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div> <br>
+                   <i>Fransızca</i>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 30%" aria-valuenow="30" data-aos-duration="1000"
+                    aria-valuemin="0" aria-valuemax="100" ></div>
+                </div> <br>
+            </div >
+                <div class="column-50">
+                   <div class="yet-img">
+                       <!--Yetenekler-->
+                        <h2 id="yetenek">Yetenekler</h2> <br>
+                        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="java.jpg"
+                         alt="foto" width="90" height="90">
+                         <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="pyhton.jpg"
+                         alt="foto1" width="90" height="90">
+                         <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="kader5.jpg"
+                         alt="foto2" width="90" height="90">
+                         <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="css.jpg"
+                         alt="foto3" width="80" height="80">
+                   </div>
+                </div>
+        </div>
+        <div class="content">
+            <div class="column-100">
+            <h2 id="sertifika">Sertifikalar</h2>
+            <marquee  behavior="alternate"  direction="right"  scrollamount="7">
+                <img src="at.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="kader3.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="at.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="kader3.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="at.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="kader3.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="at.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="kader3.jpg" alt="resim1" style="width: 200px; height: 200px;">
+                <img src="at.jpg" alt="resim1" style="width: 200px; height: 200px;">
+            </marquee> 
+        </div>
+    </div>
+   
+    <div class="content">
+        <div class="column-100">
+         <h3 id="proje">Projeler</h3>
+         <a href="#"> <img src="htmlcss.jpg" alt="html-css" style="height: 200px; width: 200px;" data-aos="flip-left"  data-aos-duration="3000"></a>
+         <a href="#"> <img src="htmlcss.jpg" alt="html-css" style="height: 200px; width: 200px;" data-aos="flip-left"  data-aos-duration="3000"></a>
+         <a href="#"> <img src="htmlcss.jpg" alt="html-css" style="height: 200px; width: 200px;" data-aos="flip-left"  data-aos-duration="3000"></a>
+         <a href="#"> <img src="htmlcss.jpg" alt="html-css" style="height: 200px; width: 200px;" data-aos="flip-left"  data-aos-duration="3000"></a>
+         <a href="#"> <img src="htmlcss.jpg" alt="html-css" style="height: 200px; width: 200px;" data-aos="flip-left"  data-aos-duration="3000"></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="column-50">
+            <h2 id="sosyal">Sosyal medya </h2>
+            <i class="fab fa-instagram fa-3x"  onclick="window.open('https://www.google.com.tr/')" style="color: palevioletred;"></i>
+            <i class="fab fa-snapchat-ghost fa-3x"  onclick="window.open('https://www.google.com.tr/')" style="color: yellow;"></i>
+            <i class="fab fa-linkedin-in fa-3x" onclick="window.open('https://www.google.com.tr/')" style="color: darkblue;"></i>
+            <i class="fab fa-twitter fa-3x" onclick="window.open('https://www.google.com.tr/')" style="color: aqua;"></i>
+            <i class="fab fa-github fa-3x" onclick="window.open('https://www.google.com.tr/')" style="color: purple;"></i>
+        </div>
+        <div class="column-50">
+            <h3 style="color:#FFA1C9 ;">Benimle iletişime geç 😀</h3>
+            <br>
+            <form id="iletisim" >
+                <input type="text"  id="isim"placeholder="İsim Soyisim" style="color: #FFA1C9;">
+                <input type="tel"  id ="tel"placeholder="Telefon" style="color: #FFA1C9;">
+                <p style="color:#FFA1C9 ;">görüşmek istediğiniz konuyu giriniz:</p>
+                <textarea  rows="2" style="color: #FFA1C9;"></textarea>
+                <button id="buton">Gönder ✔️</button>
+            </form>
+        </div>
+    </div>
+    
+    </div>
+
+
+
+
+    <script>
+        AOS.init();
+
+        /*mesaj kısmı*/
+        document.getElementById("buton").onclick=function(){
+            alert(" Mesajınız Gönderildi.")
+        }
+        /*resmi büyültmek küçültmek*/
+        function bigImg(x) {
+             x.style.height = "120px";
+             x.style.width = "120px";
+        }
+
+        function normalImg(x) {
+             x.style.height = "90px";
+             x.style.width = "90px";
+        }
+
+
+        
+      </script>
+</body>
+</html>

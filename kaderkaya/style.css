@@ -1,0 +1,183 @@
+/*reset html*/
+html{
+    height:100% ;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+  position: relative;
+    background-image:url("kader3.jpg");
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+}
+div{
+    overflow: auto;
+}
+
+/*en üst kısmı*/
+.top-div{
+    
+    margin-left: 80px;
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    font-size: 20px;;
+  
+   
+} 
+
+/*ben kimim kısmı*/
+.top-div>.column-75{
+    margin-top: 20px;
+    line-height: 3;
+     cursor: pointer;
+     
+}
+a{
+    margin-inline:20px;
+    transition: 0.5s;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+}
+.top-div >.fas{
+    color: white;
+    transition: 0.2s;
+}
+.top-div >.fas:hover{
+color: black;
+}
+/*orta kısım*/
+.mycontainer{
+    width: 80%;
+    margin: auto;
+    padding: 0 80px;
+    background-color: white;
+    padding-bottom: 100px;
+}
+.content{
+    width: 100%;
+    margin-top: 60px;
+}
+.column-25,
+.column-12,
+.column-50,
+.column-75,
+.column-100{
+    float: left;
+    padding: 10px;
+}
+.column-25{
+    width: 25%; 
+}
+.column-50{
+    width: 50%;
+}
+.column-75{
+    width: 75%;
+}
+.column-100{
+    width: 100%;
+}
+/* hakkımda*/
+.hakkımda-text{
+    margin-top: 80px;
+}
+/*yetenek kısmı*/
+.content>.column-50>.yet-img:hover{
+    cursor: pointer ;
+    
+}
+/*sertifikalar kısmı*/
+.column-12 > img{
+   transition: 1s;
+   width: 12%;
+   overflow: auto;
+}
+.column-12 > img:hover{
+    transform: scale(0.5);
+    cursor: pointer;
+}
+/*sosyal medya kısmı*/
+.content>.column-50>.fab{
+    margin-inline:15px;
+    transition: 0.8s;
+    cursor: pointer;}
+    /* iletişim*/
+input,
+textarea{
+    width: 100%;
+    margin-bottom:10px;
+    padding:10px;
+    border: 1px solid #E60965;;
+    border-radius: 7px;
+}
+button{
+    border:none;
+    padding:10px 20px;
+    background-color: #FFA1C9 ;
+    color: #E60965;
+    border-radius: 7px;
+    
+}
+
+
+
+
+  
+    
+
+    @media screen and (max-width:1100px) {
+        .mycontainer{
+            width: 90%;
+            padding: 20px;
+          }
+          .column-25,
+          .column-75{
+              width:50%;
+          }
+         
+        }
+        @media screen and (max-width:700px) {
+            .mycontainer{
+                width: 100%;
+                padding: 20px;
+              }
+              .column-25,
+              .column-75,
+              .column-50,
+              button{
+                  width: 100%;
+              }
+             
+            }
+            @media screen and (max-width:500px) {
+                .mycontainer{
+                    width: 100%;
+                    padding: 20px;
+                  }
+                  .top-div,
+                  .column-25,
+                  .column-75,
+                  .column-50,
+                  button{
+                      width: 100%;
+                  }
+                 
+                }
+        
+
+
